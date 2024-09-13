@@ -24,7 +24,7 @@ export default function Home() {
         <Link
           href={"https://github.com/Devamp"}
           target="_blank"
-          className="border border-white px-8 py-2 text-lg  rounded-xl font-bold mx-2  font-mono hover:scale-120 text-white hover:border-yellow-500"
+          className="border border-white px-8 py-2 text-lg  rounded-xl font-bold mx-2  font-mono hover:scale-120 text-white hover:border-green-500"
         >
           <FontAwesomeIcon
             icon={faCodeFork}
@@ -36,7 +36,7 @@ export default function Home() {
           GitHub
         </Link>
         <Link
-          href="./Resume_Devam_Patel.pdf"
+          href="./Resume-Devam-Patel.pdf"
           className="border border-black px-8 py-2 text-lg text-black rounded-xl font-bold mx-2 bg-yellow-400 font-mono hover:bg-yellow-500"
         >
           <FontAwesomeIcon

@@ -15,11 +15,11 @@ const Route = ({ routeName, routePath }) => {
 
 const ConnectRoute = ({ routeName, routePath }) => {
     return (
-        <Link className="font-mono text-white text-md text-center" href={routePath}>
+        <Link className="font-mono text-white text-md text-center hover:scale-105" href={routePath}>
             <div className='bg-red-500 hover:bg-red-600 rounded-sm p-2'>
-            {routeName}
+                {routeName}
             </div>
-            </Link>
+        </Link>
         
     );
 };
@@ -34,7 +34,7 @@ export default function Navbar() {
     return (
         <div className='flex sm:items-center my-3'>
             <div className='flex w-full sm:w-1/5 ml-5'>
-                <Link href={'/'} className='font-mono text-red-500 hover:text-white text-3xl text-center'>PATEL•2024</Link>
+                <Link href={'/'} className='font-mono text-red-500 hover:text-white text-3xl text-center'>DP•2024</Link>
             </div>
             <div className="flex sm:hidden justify-end items-center w-full pr-5">
                 <button onClick={toggleMenu} className="text-white focus:outline-none">
